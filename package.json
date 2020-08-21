@@ -1,6 +1,6 @@
 {
   "name": "@cyw233/plugin-chart-amcharts-stock",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Superset Chart - Amcharts stock chart",
   "sideEffects": false,
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apache-superset/superset-ui.git"
+    "url": "git+https://github.com/cyw233/plugin-chart-amcharts-stock.git"
   },
   "keywords": [
     "superset"
@@ -19,9 +19,9 @@
   "author": "Superset",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/apache-superset/superset-ui/issues"
+    "url": "https://github.com/cyw233/plugin-chart-amcharts-stock.git"
   },
-  "homepage": "https://github.com/apache-superset/superset-ui#readme",
+  "homepage": "https://github.com/cyw233/plugin-chart-amcharts-stock#readme",
   "publishConfig": {
     "access": "public"
   },
@@ -39,8 +39,5 @@
     "@types/jest": "^26.0.0",
     "@types/node": "^13.11.1",
     "jest": "^26.0.1"
-  },
-  "dependencies": {
-    "@amcharts/amcharts4": "^4.9.34"
   }
 }

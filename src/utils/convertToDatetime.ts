@@ -1,6 +1,6 @@
-import { AxisBreakDatum } from '../plugin/transformProps';
+import { AmchartsStockDatum } from '../plugin/transformProps';
 
-export function convertToDatetime(d: AxisBreakDatum[]) {
+export function convertToDatetime(d: AmchartsStockDatum[]) {
   for (let i = 0; i < d.length; i++) {
     d[i]['`HalfHourStarting`'] = new Date(d[i]['`HalfHourStarting`'] as string);
   }

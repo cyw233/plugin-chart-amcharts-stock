@@ -19,7 +19,7 @@
 import { ChartProps, DataRecord } from '@superset-ui/chart';
 import { convertToDatetime } from '../utils/convertToDatetime';
 
-type AmchartsStockDatum = DataRecord;
+export type AmchartsStockDatum = DataRecord;
 
 export default function transformProps(chartProps: ChartProps) {
   /**
